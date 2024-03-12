@@ -1,0 +1,15 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+.div-3{
+    justify-self:end;
+}
