@@ -172,10 +172,16 @@ ul {
     left: 10rem;
 }
 
+
+
+
+
+
+
 #food {
     height: 40rem;
     width: 38rem;
-    /* border-radius: 20%; */
+    border-radius: 20%;
     /* position: relative;
     top: 20rem;
     left: 95rem; */
@@ -192,6 +198,8 @@ main {
     align-items: center;
 
 }
+
+
 
 .Sleft {
     font-family: "Galindo", sans-serif;
@@ -227,6 +235,58 @@ main {
     transition: 0.3s transform ease;
     cursor: pointer;
     font-family: "Lora", serif;
+}
+
+
+@media screen and (max-width:470px){
+    .log {
+        width: 13vw;
+        position: absolute;
+        top: 8rem;
+        left: 5rem;
+    }
+    main {
+        height: 50vh;
+        width: 100vw;
+        display: grid;
+    }
+    #food {
+        height: 40rem;
+        width: 38rem;
+        /* border-radius: 20%; */
+        /* position: relative;
+        top: 20rem;
+        left: 95rem; */
+        box-shadow: 10px 5px 10px black;
+    }
+    .BTN {
+        background-color: #FFD100;
+        color: #202020;
+        margin-left: 15vw;
+        margin-top: 3vh;
+        border: none;
+        width: 17rem;
+        height: 5rem;
+        font-weight: bold;
+        font-size: 2rem;
+        border-radius: 3rem;
+        box-shadow: 5px 5px 5px black;
+        transition: 0.3s transform ease;
+        cursor: pointer;
+        font-family: "Lora", serif;
+    }
+    .h1B {
+        font-size: 9rem;
+        color: #FFD100;
+        margin-left: 4vw;
+    }
+    
+    .h1BL {
+        color: white;
+        margin-left: 8vw;
+        font-size: 3rem;
+    }
+
 }
 
 .BTN:active {
